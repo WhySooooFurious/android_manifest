@@ -1058,7 +1058,7 @@
   <project path="vendor/samsung/sm8650-common" name="proprietary_vendor_samsung_sm8650-common" remote="exynoobs" />
 
   <!-- Telephony / eSIM -->
-  <project path="packages/modules/ImsStack" name="ImsStack" remote="krazey" />
+  <project path="packages/modules/ImsStack" name="ImsStack" remote="whysoo" revision="main" />
   <remove-project name="platform/packages/modules/ImsMedia" />
   <project path="packages/modules/ImsMedia" name="ImsMedia" remote="krazey" />
   <project path="vendor/lineage/imsstack-carrier-config-ext" name="imsstack-carrier-config-ext" remote="krazey" />
