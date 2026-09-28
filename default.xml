@@ -1049,7 +1049,7 @@
   <project path="device/samsung/e3q" name="android_device_samsung_e3q" remote="whysoo" />
   <project path="device/samsung/sm8650-common" name="android_device_samsung_sm8650-common" remote="whysoo" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="lineageorg" />
-  <project path="vendor/lineage/lineage-sdk" name="android_lineage-sdk" remote="lineageorg" revision="lineage-23.0" />
+  <project path="vendor/lineage/lineage-sdk" name="android_lineage-sdk" remote="whysoo" revision="lineage-23.0" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="exynoobs" />
   <project path="kernel/samsung/sm8650" name="android_kernel_samsung_sm8650" remote="exynoobs" />
   <project path="kernel/samsung/sm8650-devicetrees" name="android_kernel_samsung_sm8650-devicetrees" remote="exynoobs" />
