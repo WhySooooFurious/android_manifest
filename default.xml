@@ -1039,4 +1039,26 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixelos.xml" />
+
+  <!-- e3q (S24 Ultra) device stack on PixelOS 16 -->
+  <remote name="exynoobs" fetch="https://github.com/Exynoobs" revision="refs/heads/lineage-23.2" />
+  <remote name="whysoo" fetch="https://github.com/WhySooooFurious" revision="refs/heads/lineage-23.2" />
+  <remote name="krazey" fetch="https://github.com/krazey" revision="refs/heads/main" />
+  <remote name="lineageorg" fetch="https://github.com/LineageOS" revision="refs/heads/lineage-23.2" />
+
+  <project path="device/samsung/e3q" name="android_device_samsung_e3q" remote="whysoo" />
+  <project path="device/samsung/sm8650-common" name="android_device_samsung_sm8650-common" remote="whysoo" />
+  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="lineageorg" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="exynoobs" />
+  <project path="kernel/samsung/sm8650" name="android_kernel_samsung_sm8650" remote="exynoobs" />
+  <project path="kernel/samsung/sm8650-devicetrees" name="android_kernel_samsung_sm8650-devicetrees" remote="exynoobs" />
+  <project path="kernel/samsung/sm8650-modules" name="android_kernel_samsung_sm8650-modules" remote="exynoobs" />
+  <project path="vendor/samsung/e3q" name="proprietary_vendor_samsung_e3q" remote="exynoobs" />
+  <project path="vendor/samsung/sm8650-common" name="proprietary_vendor_samsung_sm8650-common" remote="exynoobs" />
+
+  <!-- Telephony / eSIM -->
+  <project path="packages/modules/ImsStack" name="ImsStack" remote="krazey" />
+  <remove-project name="platform/packages/modules/ImsMedia" />
+  <project path="packages/modules/ImsMedia" name="ImsMedia" remote="krazey" />
+  <project path="vendor/lineage/imsstack-carrier-config-ext" name="imsstack-carrier-config-ext" remote="krazey" />
 </manifest>
