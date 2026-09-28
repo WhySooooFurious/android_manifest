@@ -451,7 +451,7 @@
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/pigweed" name="platform/external/pigweed" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
-  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk,sysui-studio" />
+  <project path="external/protobuf" name="protobuf" remote="whysoo" revision="lineage-23.2" groups="pdk,sysui-studio" />
   <project path="external/pthreadpool" name="platform/external/pthreadpool" groups="pdk" />
   <project path="external/puffin" name="platform/external/puffin" groups="pdk" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="pdk" />
