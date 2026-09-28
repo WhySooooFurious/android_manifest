@@ -1055,7 +1055,7 @@
   <project path="kernel/samsung/sm8650-devicetrees" name="android_kernel_samsung_sm8650-devicetrees" remote="exynoobs" />
   <project path="kernel/samsung/sm8650-modules" name="android_kernel_samsung_sm8650-modules" remote="exynoobs" />
   <project path="vendor/samsung/e3q" name="proprietary_vendor_samsung_e3q" remote="exynoobs" />
-  <project path="vendor/samsung/sm8650-common" name="proprietary_vendor_samsung_sm8650-common" remote="exynoobs" />
+  <project path="vendor/samsung/sm8650-common" name="proprietary_vendor_samsung_sm8650-common" remote="whysoo" />
 
   <!-- Telephony / eSIM -->
   <project path="packages/modules/ImsStack" name="ImsStack" remote="whysoo" revision="main" />
